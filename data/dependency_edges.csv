@@ -1,0 +1,16 @@
+Dependent,Dependency,CriticalityWeight
+api-gateway,auth-service,5
+api-gateway,orders-service,3
+api-gateway,search-service,2
+auth-service,fraud-detector,4
+billing-service,auth-service,2
+billing-service,notifications,1
+orders-service,inventory-service,2
+orders-service,catalog-service,2
+orders-service,billing-service,1
+inventory-service,analytics-pipeline,1
+search-service,catalog-service,2
+search-service,analytics-pipeline,1
+catalog-service,analytics-pipeline,1
+fraud-detector,analytics-pipeline,2
+notifications,analytics-pipeline,1
