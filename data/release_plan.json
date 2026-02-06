@@ -1,0 +1,15 @@
+{
+  "release": "RR-2026.02",
+  "changes": [
+    {"id": "CHG-101", "component": "api-gateway", "change_type": "feature", "risk": "medium", "area": "routing"},
+    {"id": "CHG-102", "component": "api-gateway", "change_type": "breaking", "risk": "low", "area": "routing"},
+    {"id": "CHG-103", "component": "auth-service", "change_type": "fix", "risk": "high", "area": "security"},
+    {"id": "CHG-104", "component": "billing-service", "change_type": "feature", "risk": "medium", "area": "payments"},
+    {"id": "CHG-105", "component": "orders-service", "change_type": "fix", "risk": "low", "area": "checkout"},
+    {"id": "CHG-106", "component": "inventory-service", "change_type": "feature", "risk": "", "area": "stock"},
+    {"id": "CHG-107", "component": "search-service", "change_type": "feature", "risk": "medium", "area": "relevance"},
+    {"id": "CHG-108", "component": "catalog-service", "change_type": "fix", "risk": "low", "area": "content"},
+    {"id": "CHG-109", "component": "fraud-detector", "change_type": "breaking", "risk": "high", "area": "security"},
+    {"id": "CHG-110", "component": "notifications", "change_type": "feature", "risk": "low", "area": "messaging"}
+  ]
+}
