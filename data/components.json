@@ -1,0 +1,14 @@
+{
+  "components": [
+    {"component": "api-gateway", "tier": "Tier0", "owner": "platform"},
+    {"component": "auth-service", "tier": "Tier0", "owner": "security"},
+    {"component": "billing-service", "tier": "Tier1", "owner": "payments"},
+    {"component": "orders-service", "tier": "Tier1", "owner": "commerce"},
+    {"component": "inventory-service", "tier": "Tier1", "owner": "supply"},
+    {"component": "notifications", "tier": "Tier2", "owner": "platform"},
+    {"component": "analytics-pipeline", "tier": "Tier2", "owner": "data"},
+    {"component": "search-service", "tier": "Tier1", "owner": "commerce"},
+    {"component": "catalog-service", "tier": "Tier1", "owner": "commerce"},
+    {"component": "fraud-detector", "tier": "Tier0", "owner": "risk"}
+  ]
+}
