@@ -1,0 +1,21 @@
+TicketID,Component,Severity,Status,CreatedAt,Tags
+TCK-001,api-gateway,P1,In Progress,2026-01-02,perf|latency
+TCK-002,api-gateway,P2,Open,2026-01-18,docs
+TCK-003,auth-service,P0,Open,2025-12-29,security|auth
+TCK-004,auth-service,P1,Done,2026-01-05,cleanup
+TCK-005,billing-service,P1,Open,2026-01-10,payment
+TCK-006,billing-service,P2,In Progress,2026-01-08,observability
+TCK-007,orders-service,P1,Open,2026-01-12,bug
+TCK-008,orders-service,P2,Done,2026-01-11,tests
+TCK-009,inventory-service,P2,Open,2026-01-03,bug
+TCK-010,inventory-service,P2,In Progress,2026-01-04,bug
+TCK-011,notifications,P2,Open,2026-01-20,ux
+TCK-012,analytics-pipeline,P1,Open,2026-01-06,data
+TCK-013,analytics-pipeline,P2,Done,2026-01-02,data
+TCK-014,search-service,P1,In Progress,2026-01-07,relevance
+TCK-015,search-service,P2,Open,2026-01-09,relevance
+TCK-016,catalog-service,P2,Open,2026-01-01,content
+TCK-017,fraud-detector,P0,In Progress,2026-01-14,security|fraud
+TCK-018,fraud-detector,P2,Done,2026-01-03,cleanup
+TCK-019,catalog-service,P1,Done,2026-01-04,cleanup
+TCK-020,orders-service,P0,Done,2026-01-15,incident
